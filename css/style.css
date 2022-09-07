@@ -41,6 +41,10 @@ p {
     object-fit: cover !important;
 }
 
+.course-info h5{
+  color: #289bde !important;
+}
+
 /* workign section */
 .main-row {
     border-left: 0 !important;
