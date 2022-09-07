@@ -1,6 +1,26 @@
 
 
 
+/* ---------------
+  Overlay dark shed on slider image
+----------------*/
+.carousel-inner{
+  z-index: 1 !important
+}
+.background-overlay{
+  position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    z-index: 2;
+}
+.slider-img{
+  height: 750px !important;
+  object-fit: cover !important;
+}
 
 
 
@@ -16,5 +36,11 @@
   }
   .register-nav-link{
     display: block !important;
+  }
+  .slider-header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* display: none; */
   }
 }
