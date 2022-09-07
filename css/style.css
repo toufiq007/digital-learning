@@ -1,20 +1,24 @@
-
-
-/* primary button */
-.primary-btn{
-  background: #289BDE !important;
-  color: #fff !important;
+/* ------------------------------
+   use css style for customize boostrap default style
+-------------------------------*/
+/*-------- primary button -------------*/
+.primary-btn {
+    background: #289bde !important;
+    color: #fff !important;
 }
-
+/* -------- All paragraph style ------------*/
+p {
+    font-size: 18px !important;
+}
 
 /* ---------------
   Overlay dark shed on slider image
 ----------------*/
-.carousel-inner{
-  z-index: 1 !important
+.carousel-inner {
+    z-index: 1 !important;
 }
-.background-overlay{
-  position: absolute;
+.background-overlay {
+    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -23,70 +27,79 @@
     color: aliceblue;
     z-index: 2;
 }
-.slider-img{
-  height: 750px !important;
-  object-fit: cover !important;
+.slider-img {
+    height: 750px !important;
+    object-fit: cover !important;
 }
 
 /* workign section */
- .main-row{
-  border-left: 0 !important;
- }
-
-/* ready to join section */
-.ready-to-join{
-  background: #289BDE;
-}
-.register-btn-2 a{
-  color: #289BDE !important;  
+.main-row {
+    border-left: 0 !important;
 }
 
-/* footer section */
-footer i{
-  font-size: 2.5rem;
-  margin-right: 20px;
+/*---------------
+  student section 
+  --------------*/
+
+/*--------------
+  ready to join section 
+--------------------*/
+.ready-to-join {
+    background: #289bde;
+}
+.register-btn-2 a {
+    color: #289bde !important;
 }
 
+/*------------------------ 
+  footer section
+ -----------------------*/
+footer i {
+    font-size: 2.5rem;
+    margin-right: 20px;
+}
 
+/* ---------------
+  use media query for customize bootstrap default design
+------------------*/
 
-
-
-
-
-
-
-@media (max-width:576px){
-  .register-btn{
-    display: none !important;
-  }
-  .register-nav-link{
-    display: block !important;
-  }
-  .slider-header{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /* display: none; */
-  }
-  .course-information{
-    flex-direction: column;
-  }
-  .course-img{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .course-img img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-
-  }
-  .faq-section .container h1 p{
+@media (max-width: 576px) {
+    .register-btn {
+        display: none !important;
+    }
+    .register-nav-link {
+        display: block !important;
+    }
+    .slider-header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* display: none; */
+    }
+    .course-information {
+        flex-direction: column;
+    }
+    .course-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .course-img img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .faq-section .container h1 p {
+        width: 100% !important;
+    }
+    .faq-container {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .successfull-students-text {
+        width: 100% !important;
+    }
+    /* .student-details img{
     width: 100% !important;
-  }
-  .faq-container{
-    width: 100% !important;
-    margin-top: 20px;
-  }
+  } */
 }
