@@ -28,6 +28,11 @@
   object-fit: cover !important;
 }
 
+/* workign section */
+ .main-row{
+  border-left: 0 !important;
+ }
+
 /* ready to join section */
 .ready-to-join{
   background: #289BDE;
