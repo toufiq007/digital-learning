@@ -1,5 +1,11 @@
 
 
+/* primary button */
+.primary-btn{
+  background: #289BDE !important;
+  color: #fff !important;
+}
+
 
 /* ---------------
   Overlay dark shed on slider image
