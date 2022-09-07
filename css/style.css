@@ -63,4 +63,11 @@ footer i{
     object-fit: cover;
 
   }
+  .faq-section .container h1 p{
+    width: 100% !important;
+  }
+  .faq-container{
+    width: 100% !important;
+    margin-top: 20px;
+  }
 }
