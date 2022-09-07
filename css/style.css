@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+  .register-btn{
+    display: none !important;
+  }
+  .register-nav-link{
+    display: block !important;
+  }
+}
