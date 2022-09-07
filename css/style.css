@@ -22,6 +22,14 @@
   object-fit: cover !important;
 }
 
+/* ready to join section */
+.ready-to-join{
+  background: #289BDE;
+}
+.register-btn-2 a{
+  color: #289BDE !important;  
+}
+
 /* footer section */
 footer i{
   font-size: 2.5rem;
