@@ -8,7 +8,7 @@
 }
 /* -------- All paragraph style ------------*/
 p {
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 /* ---------------
@@ -17,17 +17,23 @@ p {
 .carousel-inner {
     z-index: 1 !important;
 }
+/* ----------
+  giving dark overlay on slider image
+------------*/
 .background-overlay {
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
-.carousel-item{
-  z-index: 1;
+.carousel-item img {
+    z-index: 1;
+}
+.carousel-caption {
+    z-index: 4;
 }
 .slider-img {
     height: 750px !important;
@@ -102,15 +108,14 @@ footer i {
         width: 100% !important;
     }
     .slider-img {
-      height: 550px !important;
-      object-fit: cover !important;
-  }
+        height: 550px !important;
+        object-fit: cover !important;
+    }
 }
 
-
-@media (max-width:768px){
-  .slider-img {
-    height: 600px !important;
-    object-fit: cover !important;
-}
+@media (max-width: 768px) {
+    .slider-img {
+        height: 600px !important;
+        object-fit: cover !important;
+    }
 }
