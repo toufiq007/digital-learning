@@ -23,9 +23,11 @@ p {
     top: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    color: aliceblue;
+    background: rgba(0, 0, 0, 0.2);
     z-index: 2;
+}
+.carousel-item{
+  z-index: 1;
 }
 .slider-img {
     height: 750px !important;
@@ -99,7 +101,16 @@ footer i {
     .successfull-students-text {
         width: 100% !important;
     }
-    /* .student-details img{
-    width: 100% !important;
-  } */
+    .slider-img {
+      height: 550px !important;
+      object-fit: cover !important;
+  }
+}
+
+
+@media (max-width:768px){
+  .slider-img {
+    height: 600px !important;
+    object-fit: cover !important;
+}
 }
